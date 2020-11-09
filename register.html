@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login and Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="stylefiles/register.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/9b6ea01638fd252fe935acad72ebb914?family=SignPainter-HouseScript">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <br>
+    <h2>Modal Example</h2>
+    
+<!-- Button to Open the Modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Register</button>
+<!-- End of Modal Button -->
+
+<!-- The Modal Register -->
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog" id="register-dialog">
+            <div class="modal-content" id="register-content" >
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div id="ls-rg-Modal">
+                            <p id="brand">
+                                <span class="s">$</span>
+                                <span class="plitter">plitter</span>
+                            </p>
+                            <span Class="split">SPLIT IT UP</span>
+                        </div>
+                        <div class="col6">
+                            <img src="images/register/close.png" alt="close" type="button" class="close" data-dismiss="modal" id="modal-close">
+                            <br/>
+                            <p id="lg-cont-header">REGISTER</p>
+                            <div class="login-form">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="user" name="user" onchange="hideIcon(this);" Placeholder="Name" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="e-mail" name="e-mail" onchange="hideIcon(this);" Placeholder="Email" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="phn" name="phn" onchange="hideIcon(this);" Placeholder="Phone number" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="pwd" name="pwd" onchange="hideIcon(this);" Placeholder="Password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="pwd" name="pwd" onchange="hideIcon(this);" Placeholder="Confirm password" />
+                                    </div>
+                                    <button type="submit" class="btn btn-warning rounded-pill" id="reg-btn">Sign Up</button>
+                                </form>
+                                <p></p>
+                                <p id="reg-para1">If you already have an account, <a href="#" id="link2">just login.</a></p>
+                                <br/>
+                                <p></p>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> 
+<!-- End of Register Modal -->
+    

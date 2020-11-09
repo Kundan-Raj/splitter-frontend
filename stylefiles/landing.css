@@ -1,0 +1,129 @@
+/* style for backgrounds */
+.masthead {
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('landing_background/Device_image.png'),url('landing_background/banner_image_left_side.png');
+  background-size: 15%,50%;
+  background-position: center,left;
+  background-repeat: no-repeat, no-repeat;
+}
+/* styles for left side */
+.logo {
+     margin-top: 8%;
+}
+#ls-para1 {
+    display: flex; 
+    align-items: center;
+}
+.s {
+    font-family: SignPainter-HouseScript;
+    color: white;
+    font-weight: lighter;
+    font-size: 700%;
+    margin-left:20%;
+}
+.plitter{
+    font-family: SignPainter-HouseScript;
+    color: white;
+    font-size: 400%;
+    font-weight: lighter;
+}
+.split{
+    position: relative;
+    color: rgba(227, 174, 32, 1);
+    margin-left: 20%;
+    position: relative;
+    top: -85px;
+    left: 40px;
+}
+#ls-para2 {
+    color: white; 
+    text-align: right;
+    margin-right: 25%; 
+    margin-top:18%; 
+    font-weight: 800; 
+    font-family: Raleway; 
+    font-size: 200%; 
+    line-height:100%;
+}
+#ls-para3, #ls-para4 {
+    color: white;
+    text-align: right;
+    margin-right: 25%;
+}
+.buttons-lg {
+    text-align: right; 
+    margin-right: 25%;
+}
+#applestore_button {
+    margin-right: 3%;
+    width:45%; 
+    height:15%;
+}
+#google_play_button {
+    width:45%; 
+    height:15%;
+}
+#ls-para5 {
+    text-align: left; 
+    margin-top: 5%; 
+    font-family: Raleway; 
+    color: white; 
+    font-size: 80%; 
+    margin-left: 5%; 
+    font-weight: 400;
+}
+/* styles for right side */
+.nav {
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#lg {
+    width:103px; 
+    height:36px;
+}
+#rg {
+    margin-left: 10%;
+    width:103px; 
+    height:36px;
+}
+.r-section {
+    margin-top: 22%;
+    text-align: left;
+    margin-left: 25%;
+}
+#rs-para1 {
+    color: rgba(56, 56, 56, 1);
+    font-family: Raleway; 
+    font-size: 210%;
+    line-height: 100%;
+}
+#Know_your_credits, #arrow {
+    width:40%; 
+    height:15%;
+}
+#arrow {
+    width:5%; 
+    height:15%;
+}
+#follow {
+    font-family:Raleway;
+    font-weight: 700;
+    font-size: 80%;
+}
+#google-plus-icon {
+    margin-left: 2%;
+}
+#rs-para2 {
+    margin-top: 10%;
+}
+#rs-para3 {
+    text-align: right; 
+    margin-top: 10%; 
+    margin-right: -10%; 
+    font-size: 80%; 
+    font-family: Raleway; 
+    font-weight: 400; 
+    color: rgba(74, 74, 74, 1);
+}
